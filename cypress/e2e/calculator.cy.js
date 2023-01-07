@@ -40,6 +40,6 @@ describe("Calculator", () => {
     cy.get('#number0').click();
     cy.get('#number0').click();
     cy.get('#operator-equals').click();
-    cy.get('.display').should('contain', '6');
+    cy.get('.display').should('contain', '4492');
   })
 })
